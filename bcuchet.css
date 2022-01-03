@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)) , url(acc.jpg); 
+    background-position: center;
+    background-size: cover ;
+    position: relative ;
+}
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+.nav-links ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 13px ;
+}
+.nav-links ul li ::after{
+	content: '';
+	width: ;
+}
+.text-box{
+	width: 90% ;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.text-box h1{
+	font-size: 62px;
+	color: white;
+}
+.text-box p{
+	margin: 10px 0 40px;
+	font-size: 14px;
+	color: white;
+}
+.main{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	padding: 12px 34px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+.ABOUT{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+	
+	}
+.ABOUT h1{
+	margin-bottom: 45px;
+	margin-top: 40px;
+	font-weight: 600;
+	color: black;
+}
+.ABOUT p{
+	margin: 10px 0 40px;
+	font-size: 14px;
+	color: black;
+}
+
+.SERVICES{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+	background-color: #F5F5F5;
+}
+h1{
+	font-size: 36px;
+	font-weight: 600;
+	color: #708090;
+}
+p{
+	color: white;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+
+}
+.SERVICES-col{
+	flex-basis: 31%;
+	background: #708090;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+}
+.TEAM{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+	background-color: #D3D3D3;
+}
+.TEAM-col{
+	flex-basis: 31%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	text-align: left;
+}
+.TEAM-col img{
+	width: 80%;
+	border-radius: 30px;
+	margin-left: 50;
+
+}
+.TEAM-col p{
+	padding: 0;
+	margin-left: 50;
+	color: #696969;
+}
+.TEAM-col h3{
+	margin-left: 50;
+	color: #696969;
+}
+.TEAM h1{
+	color: #696969;
+}
+.TEAM-col h1{
+	margin-top: 16px;
+	margin-bottom: 15px;
+	text-align: left ;
+	color: black;
+
+}
+.CONTACT{
+	margin: 100px auto;
+	width: 80%;
+	background-image: linear-gradient(rgba(0,0,0,0.7) ,rgba(0,0,0,0.7)),url(banner2.jpg);
+	background-position: center;
+	background-size:cover ;
+	border-radius: 10px;
+	text-align: center;
+	padding: 100px 0;
+}
+.CONTACT h1{
+	color: white;
+	margin-bottom: 40px;
+	padding: 0;
+}
+.PRICE{
+	background-color: #FFF5EE;
+}
+.PRICE h1{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+	text-align: center;
+	color: #B22222;
+}
+.PRICE table{
+	 width: 300px;
+    border: 1px solid black ;
+    margin: auto;
+}
+.PRICE table td{
+	color: #B22222;
+}
+.PRICE table th{
+	color:#B22222 ;
+}
